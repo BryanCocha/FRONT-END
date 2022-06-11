@@ -1,0 +1,12 @@
+window.addEventListener('DOMContentLoaded', function (e) {
+   
+    var boton = document.getElementById("boton");
+    var message = document.getElementsByClassName("content-container")[0];
+    
+
+     boton.addEventListener("click", (e)=>{
+
+        var inputValue = document.getElementById("input").value;
+        alert(inputValue);
+     })
+});
