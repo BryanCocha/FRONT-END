@@ -1,0 +1,45 @@
+body {
+background-color: white;
+margin: 1px;
+}
+
+.content-container {
+
+padding-top: 20px;
+margin-left: 200px;
+padding: 1px ;
+height: 900px;
+
+}
+.center-content {
+background-color: white;
+display: flex;
+justify-content: center;
+padding: 20px;
+border: 2px solid rgb(224,221,221);
+}
+
+@media (max-width: 600px){
+
+    .content-container{
+        width: 100%;
+    }
+}
+.sidebar{
+    background-color: white;
+    border-right: 1px solid black;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    text-align: center;
+}
+.content.sidebar {
+    border: 1px black;
+}
+
+button {
+    background-color: yellow;
+    font-size: 10;
+    padding: 10px;
+}
+
